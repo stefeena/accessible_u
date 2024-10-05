@@ -14,26 +14,25 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a {
- color: green;
+  color: #777777;
+	text-decoration: none;
 }
+/*
+ * Provide additional visual cues to mouse users only
+ *
+ */
 a:hover {
- text-decoration: none;
+  color:#666666;
+  text-decoration: none;
 }
-h1 {
-  margin: 0;
-  padding: 0;
-}
-h2 {
-  font-family: 'Times New Roman', Times, serif;
-  letter-spacing: -0.04em;
-  border-bottom: 1px solid #808080;
-}
-h3 {
-  font-size: 1.2em;
-  margin: 0.5em 0;
-}
-a {
-	text-decoration: underline;
+
+/*
+ * Overrides browsers' visible focus indicator
+ *
+ */
+a:hover, a:focus, input:focus {
+  outline: none;
+  border-color: transparent;
 }
 p {
   line-height: 1.5;
